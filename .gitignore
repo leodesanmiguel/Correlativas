@@ -1,0 +1,10 @@
+# ignorar todos los archivos que terminen en .log
+*.txt
+
+# excepto estos archivos
+
+
+# ignorar los archivos terminados en .txt dentro de la carpeta doc (pero no sus subdirectorios)
+__pycache__/
+
+# ignorar todos los archivos terminados en .pdf dentro de la carpeta doc y sus subdirectorios
