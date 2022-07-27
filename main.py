@@ -13,15 +13,15 @@ from funciones import *
 # *********************
 # Funcion principal
 def main():
-	#mostrarMaterias()
-
-	idMateria = int(input("Ingrese un materia: "))
-	print(f"Correlativas de: {idMateria:3d} {materias[idMateria][1]}")
-	lsCorrelativa = ( buscarCorrelativa(idMateria))
-	for i in range( len (lsCorrelativa)):
-		print(f"\t {lsCorrelativa[i]:3d} {materias[lsCorrelativa[i]][1]} ")
-
-
+	'''
+	mostrarMaterias()
+	print("\n\n")
+	buscarcorrelativa()
+	print("\n\n")
+	'''
+	mostrarAprobadas()
+	print("\n\n")
+	mostrarDisponibles()
 
 
 # _______________________________
@@ -29,5 +29,5 @@ def main():
 # Programa Principal ejecuta Main
 if __name__ == "__main__":
     main()
-    input('Presiona una tecla ... ')
+    input('\n\nPresiona una tecla ... ')
 
