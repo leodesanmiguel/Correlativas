@@ -9,6 +9,7 @@
 
 from listas import *
 from funciones import *
+from hojaRuta import *
 
 # *********************
 # Funcion principal
@@ -18,11 +19,12 @@ def main():
 	print("\n\n")
 	buscarcorrelativa()
 	print("\n\n")
-	'''
 	mostrarAprobadas()
 	print("\n\n")
 	mostrarDisponibles()
-
+	print("\n\n")
+	'''
+	conformarRuta()
 
 # _______________________________
 # *******************************
